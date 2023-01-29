@@ -1,0 +1,12 @@
+package bank.creditcard;//created packagename
+import bank.chennai.SBI;//import is a keyword it used to acess to another class with class name 
+class Account_Holder{//class name
+public static void main(String[]args){//main method
+SBI obj = new SBI();//SBI is a class name //obj is a object name
+System.out.println(obj.empName);//print method //empName is a non static varible
+System.out.println(obj.empid);//print method //empid is a non static varible
+System.out.println(obj.branch_name);//print method //branch_name is a  static varible
+obj.get_loan(200000);//method calling
+obj.create_account();// method calling
+}
+}
