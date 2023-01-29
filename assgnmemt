@@ -1,0 +1,14 @@
+package bank.chennai;//package name
+public class SBI{//create class//public is a keyword,it used to this access from another class
+public String empName;//puclic is keyword acceing to another class non static variable
+public int empid;//puclic is keyword acceing to another classnon static variable
+public static String branch_name = "chennai";//puclic is keyword acceing to another classstatic variable
+public static void main(String[]args){//main method
+}
+public void get_loan(int amount)//puclic is keyword acceing to another classnon static methoddefining
+{
+}
+public void create_account()//puclic is keyword acceing to another classnon static methoddefining
+{
+}
+}
