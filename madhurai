@@ -1,0 +1,12 @@
+package bank.madhurai;// create package name
+import bank.chennai.SBI;
+class Account_Holder_Madurai{//create class name
+public static void main(String []args){//create class name
+SBI obj1 =new SBI();//create objct name
+System.out.println(obj1.empName);//print method //empName is a non static varible
+System.out.println(obj1.empid);//print method //empid is a non static varible
+System.out.println(obj1.branch_name);//print method //branch_name is a  static varible
+obj1.get_loan(200000);//method calling
+obj1.create_account();// method calling
+}
+}
